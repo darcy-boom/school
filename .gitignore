@@ -1,0 +1,6 @@
+# Project-scoped Codex skills remain local and are not published with the site.
+.agents/
+
+# Local operating-system files.
+Thumbs.db
+.DS_Store
