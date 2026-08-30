@@ -18,6 +18,13 @@
   const detailDialog = $("#detail-dialog");
   const dialogContent = $("#dialog-content");
 
+  function calendarDaysFromSnapshot(target) {
+    const targetDate = new Date(target);
+    const from = Date.UTC(snapshot.getFullYear(), snapshot.getMonth(), snapshot.getDate());
+    const to = Date.UTC(targetDate.getFullYear(), targetDate.getMonth(), targetDate.getDate());
+    return Math.round((to - from) / DAY);
+  }
+
   function make(tag, className, text) {
     const node = document.createElement(tag);
     if (className) node.className = className;
@@ -33,7 +40,7 @@
   function timeline(item) {
     if (item.deadline) {
       const deadline = new Date(item.deadline);
-      const days = Math.ceil((deadline - snapshot) / DAY);
+      const days = calendarDaysFromSnapshot(deadline);
       if (days >= 0) return { key: "upcoming", label: days === 0 ? "今日截止" : `${days} 天后截止`, days };
       return { key: "archived", label: "节点已过", days };
     }
@@ -239,10 +246,10 @@
     const root = $("#deadline-list");
     root.replaceChildren();
     deadlines.forEach((item) => {
-      const days = Math.ceil((new Date(item.deadline) - snapshot) / DAY);
+      const days = calendarDaysFromSnapshot(item.deadline);
       const row = make("div", "deadline-item");
       const block = make("div", "deadline-days");
-      block.append(make("strong", "", String(days).padStart(2, "0")), make("span", "", "DAYS"));
+      block.append(make("strong", "", String(days).padStart(2, "0")), make("span", "", days === 0 ? "TODAY" : "DAYS"));
       const button = make("button");
       button.type = "button";
       button.append(make("strong", "", item.title), make("small", "", item.dateLabel.split("；")[0]));
