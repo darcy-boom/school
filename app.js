@@ -9,6 +9,9 @@
 
   const snapshot = new Date(data.snapshot);
   const DAY = 24 * 60 * 60 * 1000;
+  const shanghaiDate = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit"
+  });
   const state = { query: "", category: "all", verification: "all", sort: "next" };
   let lastTrigger = null;
 
@@ -20,8 +23,12 @@
 
   function calendarDaysFromSnapshot(target) {
     const targetDate = new Date(target);
-    const from = Date.UTC(snapshot.getFullYear(), snapshot.getMonth(), snapshot.getDate());
-    const to = Date.UTC(targetDate.getFullYear(), targetDate.getMonth(), targetDate.getDate());
+    function calendarValue(date) {
+      const parts = Object.fromEntries(shanghaiDate.formatToParts(date).map((part) => [part.type, part.value]));
+      return Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day));
+    }
+    const from = calendarValue(snapshot);
+    const to = calendarValue(targetDate);
     return Math.round((to - from) / DAY);
   }
 
@@ -41,7 +48,7 @@
     if (item.deadline) {
       const deadline = new Date(item.deadline);
       const days = calendarDaysFromSnapshot(deadline);
-      if (days >= 0) return { key: "upcoming", label: days === 0 ? "今日截止" : `${days} 天后截止`, days };
+      if (deadline >= snapshot) return { key: "upcoming", label: days === 0 ? "今日截止" : `${days} 天后截止`, days };
       return { key: "archived", label: "节点已过", days };
     }
     if (item.startAt && item.endAt) {
@@ -61,7 +68,7 @@
     const raw = item.deadline || item.startAt || item.publishedAt;
     if (!raw) return "时间见原文";
     const value = new Date(raw);
-    return new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit" }).format(value).replace("/", ".");
+    return new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", month: "2-digit", day: "2-digit" }).format(value).replace("/", ".");
   }
 
   function normalizedText(item) {
