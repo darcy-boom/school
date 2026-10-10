@@ -58,6 +58,12 @@
       if (snapshot <= end) return { key: "ongoing", label: "正在进行", days: 0 };
       return { key: "archived", label: "已结束", days: -1 };
     }
+    if (item.startAt) {
+      const days = calendarDaysFromSnapshot(item.startAt);
+      if (days > 0) return { key: "upcoming", label: "即将举行", days };
+      if (days === 0) return { key: "ongoing", label: "今日举行", days };
+      return { key: "archived", label: "日期已过", days };
+    }
     if (item.sortAt && new Date(item.sortAt) > snapshot) {
       return { key: "upcoming", label: "后续关注", days: Math.ceil((new Date(item.sortAt) - snapshot) / DAY) };
     }
