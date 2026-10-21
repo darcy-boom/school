@@ -1,7 +1,20 @@
 window.CAU_DATA = {
-  snapshot: "2026-10-18T18:16:00+08:00",
-  snapshotLabel: "2026 年 10 月 18 日 18:16",
+  snapshot: "2026-10-21T20:12:00+08:00",
+  snapshotLabel: "2026 年 10 月 21 日 20:12",
   items: [
+    {
+      id: "n71", category: "通知", title: "2027 研考报名至 10 月 24 日，部分考生须提前交材料",
+      publishedAt: "2026-10-08", deadline: "2026-10-24T12:00:00+08:00",
+      dateLabel: "同等学力部分材料：10 月 24 日 12:00 前；网上报名：24 日 22:00 截止",
+      audience: "报考中国农业大学 2027 年硕士研究生的统考考生；特殊材料节点仅适用于章程所列同等学力申请人",
+      tags: ["研究生招生", "2027 研考", "报名"],
+      background: "研究生院发布 2027 年硕士研究生招生章程，列明全国统考报考条件、报名流程与初试安排。",
+      summary: "统考网上报名为 10 月 15—24 日每日 9:00—22:00，并须在 24 日 22:00 前按所选报考点要求上传材料；高职专科毕业满两年及本科结业等申请人还有提前提交学业材料的要求。",
+      action: "先核对招生章程与所选报考点公告；符合特殊条件者按章程在 24 日 12:00 前交材料，其他统考考生在 24 日 22:00 前完成报名及报考点要求。",
+      caveat: "12:00 的材料节点不适用于所有考生；报考资格、考试科目、报考点选择与上传材料因人而异，不以本卡替代招生章程。",
+      verification: { level: "official", label: "官方原文", note: "研究生院招生章程确认发布日期、报考对象、两类 24 日节点与流程。" },
+      sources: [{ channel: "研究生院", name: "中国农业大学 2027 年硕士研究生招生章程", url: "https://gradsch1.cau.edu.cn/art/2026/10/8/art_41740_1139718.html" }]
+    },
     {
       id: "n64", category: "通知", title: "夏季毕业生校园卡与校园网余额返还失败可申请补领",
       publishedAt: "2026-10-14", deadline: "2026-10-31T00:00:00+08:00",
@@ -27,32 +40,6 @@ window.CAU_DATA = {
       caveat: "校级奖项标准不等于学院推荐即获奖；具体资格、命名和佐证范围以学院附件为准。",
       verification: { level: "official", label: "官方原文", note: "生物学院原文确认资格、材料、两种提交路径和截止时间。" },
       sources: [{ channel: "生物学院", name: "创新创业奖学金评选通知", url: "https://cbs.cau.edu.cn/art/2026/10/17/art_8729_1141030.html" }]
-    },
-    {
-      id: "n66", category: "通知", title: "动科学院创新创业奖学金 10 月 21 日截止",
-      publishedAt: "2026-10-16", deadline: "2026-10-21T17:00:00+08:00",
-      dateLabel: "电子与纸质材料：10 月 21 日 17:00 前",
-      audience: "动科学院符合相应条件的本科生、研究生",
-      tags: ["动科学院", "创新创业奖学金", "学院推荐"],
-      background: "动科学院组织 2025—2026 学年创新创业奖学金的院级初评和推荐。",
-      summary: "候选人须准备申请推荐表、汇总表、成果汇总表及荣誉等佐证材料，学院初评后由学校统一审核。",
-      action: "按学院原文核对资格和附件，10 月 21 日 17:00 前将纸质版交动科楼 165、电子版发送至学院指定邮箱。",
-      caveat: "与生物、经管学院属于同一校级奖项，但截止和报送路径不同；一等奖、二等奖不可兼得。",
-      verification: { level: "official", label: "官方原文", note: "动科学院原文确认对象、材料、收件位置和 21 日 17:00 节点。" },
-      sources: [{ channel: "动物科学技术学院", name: "创新创业奖学金评选通知", url: "https://cast1.cau.edu.cn/art/2026/10/16/art_44423_1140931.html" }]
-    },
-    {
-      id: "n67", category: "通知", title: "经管学院创新创业奖学金由班级统一报送",
-      publishedAt: "2026-10-16", deadline: "2026-10-21T12:00:00+08:00",
-      dateLabel: "班级汇总电子和纸质材料：10 月 21 日 12:00 前",
-      audience: "经济管理学院符合条件的本科生、研究生及负责汇总的班级",
-      tags: ["经管学院", "创新创业奖学金", "班级报送"],
-      background: "经管学院启动创新创业奖学金评选，按班级汇总学术创新、竞赛和创业实训成果。",
-      summary: "学院不接受个人直接提交；班级须汇总推荐表、成果与证明，电子版和纸质版各按指定路径报送。",
-      action: "有意申请者先与班级负责人核对材料；班级于 10 月 21 日 12:00 前完成电子和纸质报送。",
-      caveat: "纸质材料的班主任或导师意见、本人签名与佐证顺序须按原文办理；院级推荐非最终获奖。",
-      verification: { level: "official", label: "官方原文", note: "经管学院原文确认班级报送规则、材料和 21 日 12:00 截止。" },
-      sources: [{ channel: "经济管理学院", name: "创新创业奖学金评选通知", url: "https://cem.cau.edu.cn/art/2026/10/16/art_56840_1140936.html" }]
     },
     {
       id: "n68", category: "通知", title: "生物学院 2027 届本科毕设 10 月 30 日前完成选题",
@@ -81,19 +68,6 @@ window.CAU_DATA = {
       sources: [{ channel: "食品科学与营养工程学院", name: "2027 年本科创新项目立项通知", url: "https://spxy.cau.edu.cn/art/2026/10/12/art_51298_1140144.html" }]
     },
     {
-      id: "n70", category: "通知", title: "食品学院研究生蜜雪冰城奖学金 10 月 19 日中午截止",
-      publishedAt: "2026-10-12", deadline: "2026-10-19T12:00:00+08:00",
-      dateLabel: "纸质申请表与支撑材料：10 月 19 日 12:00 前",
-      audience: "食品学院符合条件的中国籍二年级及以上全日制硕士研究生",
-      tags: ["食品学院", "研究生奖学金", "纸质材料"],
-      background: "食品学院组织 2025—2026 学年研究生蜜雪冰城奖学金评选，学院分配 24 个名额。",
-      summary: "奖励标准为每人 5000 元；具体专业名额、基本及优先条件见学院通知和附件。",
-      action: "符合条件者于 10 月 19 日 12:00 前将纸质申请表和支撑材料交至食品学院 229。",
-      caveat: "学院初评和学校审核后才确定获奖；本站不转载个人推荐名单。",
-      verification: { level: "official", label: "官方原文", note: "食品学院原文确认对象、金额、学院名额、材料和截止。" },
-      sources: [{ channel: "食品科学与营养工程学院", name: "研究生蜜雪冰城奖学金评选通知", url: "https://spxy.cau.edu.cn/art/2026/10/12/art_51299_1140310.html" }]
-    },
-    {
       id: "a18", category: "活动", title: "经管学院人工智能与数字经济讲座 10 月 22 日举行",
       publishedAt: "2026-10-15", startAt: "2026-10-22T14:00:00+08:00",
       dateLabel: "10 月 22 日 14:00，节约楼 209",
@@ -105,6 +79,19 @@ window.CAU_DATA = {
       caveat: "原文未公布报名入口、结束时刻或校外开放范围，本站不推断无需预约。",
       verification: { level: "official", label: "官方原文", note: "经管学院讲座预告确认报告人、题目、日期与地点。" },
       sources: [{ channel: "经济管理学院", name: "人工智能与数字经济讲座预告", url: "https://cem.cau.edu.cn/art/2026/10/15/art_56852_1140767.html" }]
+    },
+    {
+      id: "a19", category: "活动", title: "食品学院 2027 届食品专场双选会列于 10 月 23 日",
+      publishedAt: "2026-09-30", startAt: "2026-10-23T00:00:00+08:00",
+      dateLabel: "校友会活动清单：10 月 23 日，东区公三招聘大厅；具体时刻未核实",
+      audience: "关注食品学院 2027 届专场招聘活动的学生",
+      tags: ["食品学院", "双选会", "就业"],
+      background: "校友会发布的 2026 年返校日学院层面活动清单列有食品学院 2027 届食品专场双选会。",
+      summary: "清单仅能确认活动名称、10 月 23 日日期和东区公三招聘大厅地点。",
+      action: "拟参加者先向食品学院或学校就业渠道核对具体时刻、参会范围、企业名单和现场安排。",
+      caveat: "官方索引未列报名方式或活动具体时段；本卡不保证非食品学院学生可参加。",
+      verification: { level: "index", label: "官方索引", note: "校友会官方活动清单只支持标题、日期与地点。" },
+      sources: [{ channel: "校友会", name: "2026 年校友返校日学院层面活动清单", url: "https://xyh.cau.edu.cn/art/2026/9/30/art_42915_1139159.html" }]
     },
     {
       id: "c07", category: "竞赛", title: "第十七届“正大杯”市调大赛分组别开放报名",
@@ -145,6 +132,30 @@ window.CAU_DATA = {
       sources: [{ channel: "农学院", name: "玉米苞叶驯化机制研究进展", url: "https://cab.cau.edu.cn/art/2026/10/17/art_48172_1141026.html" }, { channel: "PNAS", name: "HELD1 与玉米苞叶论文原文", url: "https://www.pnas.org/doi/10.1073/pnas.2602491123" }]
     },
     {
+      id: "h26", category: "热点", title: "综述提出以铁载体理解根际健康的新框架",
+      publishedAt: "2026-10-18", dateLabel: "综述 10 月 13 日在线；校方 10 月 18 日报道",
+      audience: "关注土壤微生物、植物营养与根际生态的师生",
+      tags: ["铁载体", "根际健康", "综述"],
+      background: "中国农大与南京农大团队在 Trends in Microbiology 发表铁载体与根际健康综述。",
+      summary: "文章把铁载体的化学结构、受体匹配与微生物资源竞争、植物铁营养和部分土壤动物互作联系起来，提出从菌群组成走向功能性状与互作预测的研究思路。",
+      action: "阅读校方中文解读，再通过 PubMed 记录核对论文摘要、作者与发表日期。",
+      caveat: "这是综述性框架，不意味着已有可普遍推广的田间菌剂、病害防控或增产效果。",
+      verification: { level: "double", label: "双源复核", note: "校新闻网与 PubMed 论文记录确认综述主题、作者和 10 月 13 日在线日期。" },
+      sources: [{ channel: "学校新闻网", name: "铁载体连接根际健康新框架", url: "https://news.cau.edu.cn/kxyj/05f07cf0e3eb46f0a744b816735028bf.htm" }, { channel: "PubMed", name: "Trends in Microbiology 论文记录", url: "https://pubmed.ncbi.nlm.nih.gov/42869754/" }]
+    },
+    {
+      id: "h27", category: "热点", title: "团队用无人机监测棉花叶倾角的日内变化",
+      publishedAt: "2026-10-16", dateLabel: "校新闻网 10 月 16 日报道；期刊卷期日期另列",
+      audience: "关注作物表型、遥感和水盐胁迫研究的师生",
+      tags: ["棉花", "无人机遥感", "水盐胁迫"],
+      background: "土地学院团队研究新疆阿拉尔棉田不同水盐处理条件下的棉花叶倾角变化。",
+      summary: "团队提出融合深度学习与无人机摄影测量的 CAPLA 框架，在 27 个处理小区中多时段观察棉花冠层结构，并报告灌溉、盐分和观测时间对叶倾角变化的影响。",
+      action: "从学校新闻网阅读实验设计；引用精度、显著性与适用范围时再核对正式论文。",
+      caveat: "这是特定棉田与观测条件下的表型监测研究，不等同于已验证的普遍灌溉建议；期刊页面本轮直连受限。",
+      verification: { level: "official", label: "官方原文", note: "学校新闻网完整正文确认研究范围与主要方向；期刊页本轮直连 403。" },
+      sources: [{ channel: "学校新闻网", name: "棉花叶倾角动态遥感监测研究", url: "https://news.cau.edu.cn/kxyj/1bb68b30a3e6406e916df3518117356e.htm" }, { channel: "论文 DOI", name: "Remote Sensing of Environment 论文入口", url: "https://doi.org/10.1016/j.rse.2026.115674" }]
+    },
+    {
       id: "c06",
       category: "竞赛",
       title: "华北五省计算机应用大赛待迎 11 月决赛",
@@ -160,43 +171,6 @@ window.CAU_DATA = {
       verification: { level: "official", label: "官方原文", note: "信电学院原文可核验队伍规模、报送和作品节点。" },
       sources: [
         { channel: "信电学院", name: "华北五省高校计算机类竞赛通知", url: "https://ciee.cau.edu.cn/art/2026/9/10/art_50390_1136378.html" }
-      ]
-    },
-    {
-      id: "a12",
-      category: "活动",
-      title: "气象系建系 70 周年暨学科发展研讨会开放报名",
-      publishedAt: "2026-09-30",
-      deadline: "2026-10-20T00:00:00+08:00",
-      dateLabel: "报名：10 月 20 日前；报到：11 月 6 日；会议：11 月 7 日",
-      audience: "气象系校友、相关领域专家、合作单位、离退休教师与校内师生",
-      tags: ["气象系", "学科发展", "70 周年"],
-      background: "学校举办气象系建系 70 周年暨学科发展研讨会，交流学科历史、人才培养与未来发展。",
-      summary: "活动 11 月 6 日报到、7 日开会、8 日离会，地点在中国农业大学西校区；会议不收取会议费并提供工作餐。",
-      action: "有意参会者于 10 月 20 日前扫描校级通知中的二维码报名，并留意后续第二轮通知。",
-      caveat: "原文写“10 月 20 日前”但未给小时，本站按 20 日零时保守排序；往返交通和住宿费用自理，具体安排以后续通知为准。",
-      verification: { level: "official", label: "官方原文", note: "校级通知可核验对象、报到和会议日期、报名截止及费用安排。" },
-      sources: [
-        { channel: "学校通知公告", name: "气象系建系 70 周年暨学科发展研讨会通知", url: "https://cau.edu.cn/tzgg/fb2be3219d024134bb58bd02c983d47d.htm" }
-      ]
-    },
-    {
-      id: "a13",
-      category: "活动",
-      title: "第二十届全国堆肥技术与工程研讨会 10 月 16—19 日举行",
-      publishedAt: "2026-08-22",
-      startAt: "2026-10-16T00:00:00+08:00",
-      endAt: "2026-10-19T23:59:59+08:00",
-      dateLabel: "参会回执：10 月 9 日前；会议：10 月 16—19 日",
-      audience: "堆肥、农业废弃物资源化与有机肥领域的师生及从业者",
-      tags: ["全国堆肥研讨会", "学术会议", "参会回执"],
-      background: "第二十届全国堆肥技术与工程研讨会聚焦有机废弃物资源化、堆肥技术与产业应用，中国农业大学资源与环境学院作为主办单位之一发布第一轮通知。",
-      summary: "会议计划于 10 月 16—19 日在呼和浩特举办；有意参会者需按通知提交回执并确认注册费、交通及住宿安排。",
-      action: "已提交回执的参会者核对注册、出行与住宿安排；新参会意向者先向会务方确认是否仍可受理。",
-      caveat: "10 月 9 日前的回执节点已过；本站不再将其宣传为开放报名，会议是否接受补报须会务方确认。",
-      verification: { level: "official", label: "官方原文", note: "资环学院公开通知可核验举办日期、地点、回执节点和会议费用说明。" },
-      sources: [
-        { channel: "资源与环境学院", name: "第二十届全国堆肥大会会议通知", url: "https://zihuan.cau.edu.cn/art/2026/8/22/art_49061_1130030.html" }
       ]
     },
     {
@@ -358,24 +332,6 @@ window.CAU_DATA = {
       ]
     },
     {
-      id: "h17",
-      category: "热点",
-      title: "综述揭示中国氮沉降由达峰转向农业氨主导",
-      publishedAt: "2026-09-20",
-      dateLabel: "论文 9 月 14 日发表；校方 9 月 20 日报道",
-      audience: "关注农业环境、氮循环与生态治理的师生",
-      tags: ["氮沉降", "农业氨", "Nature Reviews"],
-      background: "资环学院团队联合多家机构，整合全国监测网络与模型证据，回顾中国活性氮沉降四十年变化。",
-      summary: "综述显示，全国总氮沉降在 2010—2012 年达峰后，到 2020 年下降约 14%；农业来源的还原态氮已占总沉降的 60%—70%。",
-      action: "从校方报道了解中文解读，再到期刊页核对摘要、作者、数字和政策边界。",
-      caveat: "全国趋势和模型估计不能替代某一地区的即时监测；论文强调的是将农业氨管理纳入气候与空气质量协同政策。",
-      verification: { level: "double", label: "双源复核", note: "校新闻网与 Nature Reviews Earth & Environment 论文页共同支持日期、全国趋势和主要数字。" },
-      sources: [
-        { channel: "学校新闻网", name: "中国氮沉降四十年研究解读", url: "https://news.cau.edu.cn/kxyj/c80b5bcb0cf240ae8612709c5223c4a1.htm" },
-        { channel: "Nature Reviews Earth & Environment", name: "Drivers, trends and impacts of nitrogen deposition in China", url: "https://www.nature.com/articles/s43017-026-00830-x" }
-      ]
-    },
-    {
       id: "h18",
       category: "热点",
       title: "团队构建益生菌肠道分区递送微凝胶",
@@ -412,53 +368,18 @@ window.CAU_DATA = {
       ]
     },
     {
-      id: "h15",
-      category: "热点",
-      title: "长期实验揭示生物多样性效应随时间重组",
-      publishedAt: "2026-09-18",
-      dateLabel: "论文 9 月 10 日在线发表；校方 9 月 18 日报道",
-      audience: "关注生态学、生物多样性与长期实验研究的师生",
-      tags: ["生物多样性", "生态稳定性", "Ecology Letters"],
-      background: "研究团队结合耶拿生物多样性实验 20 年数据与一项 5 年配对实验，分析多样性、生产力和稳定性关系如何随时间变化。",
-      summary: "研究显示，生物多样性对生产力和稳定性的正向效应随时间增强，但两种效应间的耦合减弱；稳定性更受物种特异的异步动态影响。",
-      action: "从校方报道了解研究背景，再到 Ecology Letters 论文页核对摘要、作者和正式版本。",
-      caveat: "结论来自特定长期草地实验与配对设计，不能直接外推到所有生态系统；校方报道日不是论文上线日。",
-      verification: { level: "double", label: "双源复核", note: "校新闻网与 Ecology Letters 论文页共同支持研究设计、核心结论和两类日期。" },
-      sources: [
-        { channel: "学校新闻网", name: "长期实验揭示生物多样性效应关系变化", url: "https://news.cau.edu.cn/kxyj/f7207c53df204965bfeb7ebe8870bfe5.htm" },
-        { channel: "Ecology Letters", name: "论文页面（DOI 10.1111/ele.70451）", url: "https://onlinelibrary.wiley.com/doi/10.1111/ele.70451" }
-      ]
-    },
-    {
-      id: "h01",
-      category: "热点",
-      title: "中国农大与联合国粮农组织正式签署合作备忘录",
-      publishedAt: "2026-09-18",
-      dateLabel: "9 月 18 日在 WAFI 期间签署",
-      audience: "关注国际合作、农业政策与全球发展议题的师生",
-      tags: ["FAO", "国际合作", "南南合作"],
-      background: "在 2026 世界农业科技创新大会期间，中国农业大学与联合国粮农组织完成合作备忘录签署。",
-      summary: "校长陈卫与联合国粮农组织首席经济学家马克西莫·托雷罗·库伦代表双方签署，合作方向包括可持续农业和南南合作。",
-      action: "从学校新闻网阅读签署背景；具体合作项目、参与方式或资金安排须等待双方后续正式发布。",
-      caveat: "备忘录已签署，但原文没有给出所有具体项目与落地时间表，不能据此推断个人申报机会。",
-      verification: { level: "official", label: "官方原文", note: "学校新闻网 9 月 18 日原文确认签署时间、双方代表与公开合作方向。" },
-      sources: [
-        { channel: "学校新闻网", name: "中国农大与联合国粮农组织签署合作备忘录", url: "https://news.cau.edu.cn/ttgznew/2b4ee3a2d14346bb979aa575d1c0e156.htm" }
-      ]
-    },
-    {
       id: "s01",
       category: "校园",
-      title: "校园集市官方入口可访问，交易信息仍需自行核验",
+      title: "校园集市入口保留，访问与交易状态需自行核验",
       publishedAt: "2026-10-18",
-      dateLabel: "10 月 18 日公开入口可访问；个人交易内容未核验",
+      dateLabel: "10 月 18 日最后成功访问；10 月 21 日本轮超时",
       audience: "需要校内二手交易、闲置流转与失物招领的师生",
       tags: ["校园集市", "二手交易", "隐私保护"],
       background: "中国农大校园集市提供校内二手物品、失物招领等公开信息入口。",
-      summary: "10 月 18 日可打开校园集市公开入口；本站不转载个人交易详情。",
+      summary: "保留校园集市服务入口；10 月 21 日本轮访问超时，本站不确认此时可达或个人交易详情。",
       action: "需要使用时进入官方入口自行查看，优先校内当面交接并现场核验物品，警惕预付、外链和私下转账风险。",
-      caveat: "入口可访问不代表每条个人发布的交易信息都真实、有效或仍在售；物品状态、价格和对方身份均需二次确认。",
-      verification: { level: "official", label: "官方入口", note: "10 月 18 日核验公开入口可访问；未核验个人交易内容。" },
+      caveat: "上次成功访问为 10 月 18 日，本轮超时；入口与每条交易的可达性、物品状态、价格和对方身份均需二次确认。",
+      verification: { level: "index", label: "入口受限", note: "官方入口 10 月 18 日可访问，10 月 21 日本轮超时；未核验个人交易内容。" },
       sources: [
         { channel: "校园集市", name: "中国农业大学校园集市", url: "https://ershou.cau.edu.cn/" }
       ]
@@ -466,12 +387,12 @@ window.CAU_DATA = {
   ],
   channels: [
     { name: "校级与院系官网", state: "verified", label: "已核验", detail: "作为事实基线，覆盖教学、研究生、学生工作、团学、院系、科研、活动与新闻原文。", url: "https://www.cau.edu.cn/" },
-    { name: "微信公众号 / 视频号", state: "partial", label: "公开覆盖有限", detail: "校方首页有微信公开回链，但镜像本轮返回 403；微信正文、企业微信和个性化推送无法公开穷尽，事实仍回到责任单位官网核验。", url: "https://www.cau.edu.cn/" },
-    { name: "Google", state: "discovery", label: "覆盖未知", detail: "搜索页本轮可返回，但未证明结果完整；公开检索只用于发现线索。" },
-    { name: "百度", state: "discovery", label: "安全验证", detail: "本轮直连返回安全验证页，未能核验结果页覆盖率；结果摘要不替代责任单位正文。" },
-    { name: "知乎", state: "discovery", label: "访问受限", detail: "直接访问受限；公开检索未取得可稳定回溯并补强校方时间、对象或要求的正文。", url: "https://www.zhihu.com/" },
-    { name: "小红书", state: "partial", label: "正文受限", detail: "首页可访问，但校务目标内容受登录和动态加载限制；未取得可稳定回溯并补强校方事实的正文。", url: "https://www.xiaohongshu.com/" },
+    { name: "微信公众号 / 视频号", state: "partial", label: "公开覆盖有限", detail: "本轮公开索引不能证明公众号正文完整覆盖；微信、企业微信和个性化推送无法公开穷尽，事实仍回到责任单位官网核验。", url: "https://www.cau.edu.cn/" },
+    { name: "Google", state: "discovery", label: "结果页受限", detail: "本轮搜索结果页无法稳定直接访问；通用公开检索只用于发现线索，不代表 Google 结果完整覆盖。" },
+    { name: "百度", state: "discovery", label: "结果页受限", detail: "本轮搜索结果页无法稳定直接访问；摘要不替代责任单位正文。" },
+    { name: "知乎", state: "discovery", label: "安全验证", detail: "本轮直接访问重定向至安全验证；未取得可稳定回溯并补强校方时间、对象或要求的正文。", url: "https://www.zhihu.com/" },
+    { name: "小红书", state: "partial", label: "需要登录", detail: "本轮首页重定向登录；未取得可稳定回溯并补强校方事实的校务正文。", url: "https://www.xiaohongshu.com/" },
     { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号和近期公开索引；官方时间流受 robots 与动态加载限制，关键事实必须回到责任单位原文。", url: "https://weibo.com/cau1905" },
-    { name: "校园集市", state: "verified", label: "入口可见", detail: "10 月 18 日公开入口可访问；只保留入口与安全提示，不展示即时商品或个人信息。", url: "https://ershou.cau.edu.cn/" }
+    { name: "校园集市", state: "partial", label: "本轮超时", detail: "10 月 18 日最后成功访问，10 月 21 日本轮超时；只保留入口与安全提示，不展示即时商品或个人信息。", url: "https://ershou.cau.edu.cn/" }
   ]
 };
