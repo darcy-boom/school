@@ -48,7 +48,10 @@
     if (item.deadline) {
       const deadline = new Date(item.deadline);
       const days = calendarDaysFromSnapshot(deadline);
-      if (deadline >= snapshot) return { key: "upcoming", label: days === 0 ? "今日截止" : `${days} 天后截止`, days };
+      if (deadline >= snapshot) {
+        const label = days === 0 ? "今日截止" : deadline - snapshot < DAY ? "不足 24 小时截止" : `${days} 天后截止`;
+        return { key: "upcoming", label, days };
+      }
       return { key: "archived", label: "节点已过", days };
     }
     if (item.startAt && item.endAt) {
@@ -262,7 +265,8 @@
       const days = calendarDaysFromSnapshot(item.deadline);
       const row = make("div", "deadline-item");
       const block = make("div", "deadline-days");
-      block.append(make("strong", "", String(days).padStart(2, "0")), make("span", "", days === 0 ? "TODAY" : "DAYS"));
+      const withinDay = new Date(item.deadline) - snapshot < DAY;
+      block.append(make("strong", "", withinDay && days > 0 ? "<24" : String(days).padStart(2, "0")), make("span", "", days === 0 ? "TODAY" : withinDay ? "HRS" : "DAYS"));
       const button = make("button");
       button.type = "button";
       button.append(make("strong", "", item.title), make("small", "", item.dateLabel.split("；")[0]));
