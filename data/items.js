@@ -1,32 +1,71 @@
 window.CAU_DATA = {
-  snapshot: "2026-10-25T20:06:00+08:00",
-  snapshotLabel: "2026 年 10 月 25 日 20:06",
+  snapshot: "2026-10-28T20:12:00+08:00",
+  snapshotLabel: "2026 年 10 月 28 日 20:12",
   items: [
     {
-      id: "n73", category: "通知", title: "食品学院杨振辉奖学金 10 月 26 日前完成系统申请",
-      publishedAt: "2026-10-23", deadline: "2026-10-26T00:00:00+08:00",
-      dateLabel: "304 系统：10 月 26 日前；纸质材料：10 月 28 日 17:00 前",
-      audience: "食品学院本轮名额对应的 2023 级食品质量与安全、食品科学与工程、食品营养与健康专业，且符合奖项条件的本科生",
-      tags: ["食品学院", "杨振辉奖学金", "304 系统"],
-      background: "食品学院补充发布 2025—2026 学年本科生社会捐赠类杨振辉奖学金评选安排。",
-      summary: "本轮三个专业各分配 1 个名额；申请先走 304 学工系统，院系审核后再打印申请表并交成绩单、荣誉证明和个人成长报告。",
-      action: "符合对象者先核对完整资格，于 10 月 26 日前完成系统申请；审核后按学院通知于 28 日 17:00 前交纸质材料。",
-      caveat: "原文未给系统申请具体小时，本站按 26 日零时保守排序；学院初评不等于最终获奖。",
-      verification: { level: "official", label: "官方原文", note: "食品学院 10 月 23 日补充通知确认专业名额、系统和纸质材料节点。" },
-      sources: [{ channel: "食品学院", name: "杨振辉奖学金评选补充通知", url: "https://spxy.cau.edu.cn/art/2026/10/23/art_51299_1142632.html" }]
+      id: "n79", category: "通知", title: "生物学院十佳班集体与宿舍评选 10 月 31 日截件",
+      publishedAt: "2026-10-26", deadline: "2026-10-31T15:00:00+08:00",
+      dateLabel: "院内申报：10 月 31 日 15:00 前；拟于 11 月 2—5 日答辩",
+      audience: "生物学院有意参评的本科生、研究生班集体与宿舍",
+      tags: ["生物学院", "十佳班集体", "十佳宿舍"],
+      background: "学校开展 2026 年十佳班集体、十佳宿舍创建评比，由各学院先遴选推荐。",
+      summary: "生物学院班级和宿舍均需分别提交推荐汇总表、基本情况表与申报材料，学院拟先组织答辩再择优推荐学校。",
+      action: "按生物学院原文下载对应附件，将材料于 10 月 31 日 15:00 前报送学院，并准备可能的院内答辩。",
+      caveat: "11 月 6 日是学院向学校推荐的节点，不是学生申报截止；其他学院时间不同。",
+      verification: { level: "official", label: "官方原文", note: "生物学院 10 月 26 日原文确认对象、材料和院内 10 月 31 日 15:00 节点。" },
+      sources: [{ channel: "生物学院", name: "2026 年十佳班集体、十佳宿舍评比通知", url: "https://cbs.cau.edu.cn/art/2026/10/26/art_8729_1143033.html" }]
     },
     {
-      id: "n74", category: "通知", title: "食品学院创新创业奖学金 10 月 26 日 17 时截件",
-      publishedAt: "2026-10-22", deadline: "2026-10-26T17:00:00+08:00",
-      dateLabel: "电子与纸质材料：10 月 26 日 17:00 前",
-      audience: "食品学院符合条件的二年级及以上全日制本科生、全日制研究生",
-      tags: ["食品学院", "创新创业奖学金", "材料提交"],
-      background: "学院启动 2025—2026 学年创新创业奖学金评选。",
-      summary: "申请须按学院原文备齐推荐表、成果汇总表及佐证材料，电子版和纸质申请表均有 26 日 17:00 节点。",
-      action: "核对业绩时段与附件资格，将电子材料发至学院指定邮箱，并把纸质申请表交学院 229。",
-      caveat: "学院差额推荐后还需学校评审；成果排名、学年成绩等资格以原文与附件为准。",
-      verification: { level: "official", label: "官方原文", note: "食品学院 10 月 22 日原文确认对象、电子和纸质节点。" },
-      sources: [{ channel: "食品学院", name: "创新创业奖学金评选通知", url: "https://spxy.cau.edu.cn/art/2026/10/22/art_51299_1142443.html" }]
+      id: "a20", category: "活动", title: "食品学院本科生科研专题讲座 10 月 30 日举行",
+      publishedAt: "2026-10-27", startAt: "2026-10-30T14:00:00+08:00", endAt: "2026-10-30T16:00:00+08:00",
+      dateLabel: "10 月 30 日 14:00—16:00 · 食品学院报告厅",
+      audience: "食品学院大四本科生必须参加；大一、大二、大三本科生自愿参加",
+      tags: ["食品学院", "科研素养", "专题讲座"],
+      background: "食品学院邀请生物学院及本院教师为本科生讲授科研基础与创新。",
+      summary: "讲座涉及科研素质、实验记录规范和科研创新两部分，通知未设置公开报名步骤。",
+      action: "适用学生按学院通知提前到场；大四学生如有冲突应咨询学院本科教务。",
+      caveat: "参会要求限定于食品学院通知所列对象；不推断全校本科生均需参加。",
+      verification: { level: "official", label: "官方原文", note: "食品学院 10 月 27 日原文确认时间、地点、内容及不同年级参会要求。" },
+      sources: [{ channel: "食品学院", name: "本科生科研专题讲座通知", url: "https://spxy.cau.edu.cn/art/2026/10/27/art_51298_1143183.html" }]
+    },
+    {
+      id: "n78", category: "通知", title: "水院十佳班集体与宿舍评选 11 月 2 日截件",
+      publishedAt: "2026-10-26", deadline: "2026-11-02T10:00:00+08:00",
+      dateLabel: "院内电子、纸质材料：11 月 2 日 10:00 前",
+      audience: "水利与智能工程学院有意参评的班集体、宿舍",
+      tags: ["水院", "十佳班集体", "十佳宿舍"],
+      background: "学校开展 2026 年十佳班集体、十佳宿舍创建评比，学院负责推荐候选。",
+      summary: "水院拟推荐不超过 3 个班集体和 5 个宿舍；申报需按班集体或宿舍类别分别准备汇总表、基本情况表及申报材料。",
+      action: "向水院报送电子版并将纸质材料交至中以楼 A102，11 月 2 日 10:00 前完成。",
+      caveat: "这是水院院内节点，不适用于其他学院；校级初评与决赛时间尚为计划。",
+      verification: { level: "official", label: "官方原文", note: "水院 10 月 26 日原文确认对象、院内交件时间及材料路径。" },
+      sources: [{ channel: "水利与智能工程学院", name: "十佳班集体、十佳宿舍评比通知", url: "https://water.cau.edu.cn/art/2026/10/26/art_45011_1143006.html" }]
+    },
+    {
+      id: "n80", category: "通知", title: "研究生课程“AI+教学”建设项目 11 月 6 日由单位报送",
+      publishedAt: "2026-10-22", deadline: "2026-11-06T15:00:00+08:00",
+      dateLabel: "培养单位统一报送：11 月 6 日 15:00 前",
+      audience: "拟以已开设研究生课程申报的中国农大在职教师及培养单位",
+      tags: ["研究生院", "AI+教学", "课程建设"],
+      background: "研究生院组织 2026 年研究生 AI 赋能教学课程建设项目申报。",
+      summary: "面向校内研究生课程，负责人须为本校在职教师，课程在过去一个教学年正常开课，且未获学校相关 AI 课程立项支持。",
+      action: "课程负责人将申报表提交所在培养单位，由单位评议推荐并在 11 月 6 日 15:00 前统一报送。",
+      caveat: "11 月 6 日是培养单位报送终点，个人院内交件时间可能更早，须向所在单位确认。",
+      verification: { level: "official", label: "官方原文", note: "研究生院 10 月 22 日原文确认申报资格、单位流程和统一报送时限。" },
+      sources: [{ channel: "研究生院", name: "2026 年研究生“AI+教学”课程建设项目申报通知", url: "https://gradsch1.cau.edu.cn/art/2026/10/22/art_37646_1142509.html" }]
+    },
+    {
+      id: "c09", category: "竞赛", title: "资环学院党课嘉年华展演 11 月 6 日报送作品",
+      publishedAt: "2026-10-27", deadline: "2026-11-07T00:00:00+08:00",
+      dateLabel: "初赛材料：11 月 6 日 24:00 前；拟于 11 月中下旬决赛",
+      audience: "资环学院各学生党支部须参加；其他有兴趣学生可自愿组队",
+      tags: ["资环学院", "长征精神", "展演比赛"],
+      background: "资环学院党委以长征胜利 90 周年为主题，举办“长征薪火·吾辈接棒”党课嘉年华。",
+      summary: "作品可采用情景剧、朗诵、书信对话、舞蹈等形式；初赛需节目信息、简介、历史素材说明及视频，四个本科生支部的视频要求例外。",
+      action: "按资环学院原文完成节目和材料，于 11 月 6 日 24:00 前提交，留意 11 月 7—10 日拟开展的初审。",
+      caveat: "历史素材应核实出处和版权；决赛具体时间地点另行通知，不能将拟定赛程视为最终安排。",
+      verification: { level: "official", label: "官方原文", note: "资环学院 10 月 27 日原文确认参与对象、形式、材料、截止与初决赛计划。" },
+      sources: [{ channel: "资源与环境学院", name: "党课嘉年华展演比赛通知", url: "https://zihuan.cau.edu.cn/art/2026/10/27/art_48723_1143143.html" }]
     },
     {
       id: "n76", category: "通知", title: "水院 2027 届本科毕设 10 月 30 日前完成选题",
@@ -155,30 +194,17 @@ window.CAU_DATA = {
       sources: [{ channel: "食品科学与营养工程学院", name: "2027 年本科创新项目立项通知", url: "https://spxy.cau.edu.cn/art/2026/10/12/art_51298_1140144.html" }]
     },
     {
-      id: "c07", category: "竞赛", title: "第十七届“正大杯”市调大赛分组别开放报名",
-      publishedAt: "2026-10-14", deadline: "2026-10-25T23:59:00+08:00",
-      dateLabel: "本科组报名及缴费：10 月 25 日 23:59；研究生、在华留学生组：11 月 9 日 23:59",
-      audience: "中国农业大学在校本科生、研究生及符合组别要求的在华留学生",
+      id: "c07", category: "竞赛", title: "“正大杯”市调大赛研究生与在华留学生组仍可报名",
+      publishedAt: "2026-10-14", deadline: "2026-11-09T23:59:00+08:00",
+      dateLabel: "研究生、在华留学生组报名及缴费：11 月 9 日 23:59 前",
+      audience: "中国农业大学在校研究生及符合组别要求的在华留学生；本科组报名已结束",
       tags: ["正大杯", "市场调查", "分组报名"],
       background: "校团委组织第十七届全国大学生市场调查与分析大赛校内参赛。",
-      summary: "本科组先参加个人知识赛，合格后组队实践；研究生和在华留学生组直接组队，团队由 3—5 名本校学生组成。",
-      action: "按本人组别进入校团委通知所列大赛官网报名，并在对应截止前完成缴费、加入校级通知群；本科组留意 11 月知识赛。",
-      caveat: "两个报名截止不同，本卡以较早的本科组节点排序；报名与缴费缺一不可，截止后不可补报，费用及组别细则以原文为准。",
-      verification: { level: "official", label: "官方原文", note: "校团委原文确认组别、报名缴费节点、赛程和组队限制。" },
+      summary: "研究生和在华留学生组可直接组队进入实践赛，团队由 3—5 名本校学生组成；已报名本科组的知识赛为 11 月 1—20 日。",
+      action: "符合仍开放组别者按校团委通知在大赛官网报名并完成缴费；已报名本科组留意知识赛安排。",
+      caveat: "本科组报名缴费已于 10 月 25 日 23:59 截止，不能补报；其他两组报名与缴费缺一不可，组队资格依原文。",
+      verification: { level: "official", label: "官方原文", note: "校团委原文确认研究生及在华留学生组至 11 月 9 日 23:59，本科组已截止。" },
       sources: [{ channel: "校团委", name: "第十七届全国大学生市场调查与分析大赛通知", url: "https://youth.cau.edu.cn/art/2026/10/14/art_45078_1140612.html" }]
-    },
-    {
-      id: "c08", category: "竞赛", title: "长征精神宣讲作品征集至 10 月 26 日晚",
-      publishedAt: "2026-10-16", deadline: "2026-10-26T22:00:00+08:00",
-      dateLabel: "报名表与宣讲稿：10 月 26 日 22:00 前",
-      audience: "中国农业大学全体学生",
-      tags: ["宣讲作品", "长征精神", "原创征集"],
-      background: "稼穑英才宣讲团面向全校征集主题宣讲作品，设置评奖与参与证明。",
-      summary: "稿件建议约 1500 字，可从长征故事、青年成长和兴农使命等方向切入，须原创且史实准确。",
-      action: "按校团委原文准备报名表和 Word 宣讲稿，于 10 月 26 日 22:00 前按命名要求发送。",
-      caveat: "涉及长征史料须引用权威出版物或官方党史文献；投稿后的群聊与获奖安排见原文。",
-      verification: { level: "official", label: "官方原文", note: "校团委原文确认对象、选题、提交要求、截止和奖励安排。" },
-      sources: [{ channel: "校团委", name: "长征精神宣讲作品征集通知", url: "https://youth.cau.edu.cn/art/2026/10/16/art_45078_1140808.html" }]
     },
     {
       id: "h25", category: "热点", title: "农学院团队解析玉米苞叶驯化的遗传机制",
@@ -375,54 +401,18 @@ window.CAU_DATA = {
       ]
     },
     {
-      id: "h18",
-      category: "热点",
-      title: "团队构建益生菌肠道分区递送微凝胶",
-      publishedAt: "2026-09-24",
-      dateLabel: "9 月 24 日校方报道；Advanced Materials 论文在线可查",
-      audience: "关注食品科学、益生菌与材料递送系统的师生",
-      tags: ["益生菌", "精准递送", "Advanced Materials"],
-      background: "食品学院团队以玉米芯改性纤维素构建不同几何形态的微凝胶，研究回肠与结肠分区递送。",
-      summary: "球形与棒状构筑单元形成不同拓扑结构和力学响应，使两类载体在不同肠道区域解体，为益生菌递送系统设计提供新思路。",
-      action: "结合校方图解与期刊论文阅读方法、模型和实验条件；需要引用时以正式论文版本为准。",
-      caveat: "这是递送系统与模型研究，不构成面向公众的诊疗、保健或产品功效建议。",
-      verification: { level: "double", label: "双源复核", note: "校新闻网与 Advanced Materials 论文页共同确认题名、研究方向和在线状态。" },
-      sources: [
-        { channel: "学校新闻网", name: "益生菌肠道分区精准递送研究进展", url: "https://news.cau.edu.cn/kxyj/9573db93c31545e59af821f45cae2fd5.htm" },
-        { channel: "Advanced Materials", name: "Geometry-Mediated Microgel Structure-Mechanics", url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75011" }
-      ]
-    },
-    {
-      id: "h19",
-      category: "热点",
-      title: "研究提示活化过氧单硫酸盐的消毒副产物风险",
-      publishedAt: "2026-09-24",
-      dateLabel: "9 月 24 日校方报道；Water Research 论文在线可查",
-      audience: "关注环境化学、水处理与消毒安全的师生",
-      tags: ["水处理", "过氧单硫酸盐", "Water Research"],
-      background: "理学院团队研究含氯水体中活化过氧单硫酸盐高级氧化过程的游离氯与挥发性副产物。",
-      summary: "团队利用膜进样质谱实现游离氯的直接、实时定量，并显示多种活化体系会增强游离氯及挥发性氯代消毒副产物生成。",
-      action: "从校方报道了解实验设计，再到论文页核对活化体系、浓度范围和研究限制。",
-      caveat: "研究用于提示工艺设计中的风险权衡，不能据此推断某个水厂或当前饮用水已经存在污染。",
-      verification: { level: "double", label: "双源复核", note: "校新闻网与 Water Research 论文页共同确认题名、研究对象和核心风险方向。" },
-      sources: [
-        { channel: "学校新闻网", name: "过硫酸盐消毒副产物研究进展", url: "https://news.cau.edu.cn/kxyj/e4f144d78f974639b760a2bf3759d2bb.htm" },
-        { channel: "Water Research", name: "The overlooked risk of activated peroxymonosulfate", url: "https://www.sciencedirect.com/science/article/pii/S0043135426012212" }
-      ]
-    },
-    {
       id: "s01",
       category: "校园",
       title: "校园集市公开入口可访问，交易细节仍需二次核验",
-      publishedAt: "2026-10-25",
-      dateLabel: "10 月 25 日入口、分类与失物招领可访问",
+      publishedAt: "2026-10-28",
+      dateLabel: "10 月 28 日入口、分类与失物招领可访问",
       audience: "需要校内二手交易、闲置流转与失物招领的师生",
       tags: ["校园集市", "二手交易", "隐私保护"],
       background: "中国农大校园集市提供校内二手物品、失物招领等公开信息入口。",
       summary: "本轮可访问校园集市入口、分类和失物招领；本站不确认即时商品与交易详情。",
       action: "需要使用时进入官方入口自行查看，优先校内当面交接并现场核验物品，警惕预付、外链和私下转账风险。",
-      caveat: "10 月 25 日入口可访问；每条交易的物品状态、价格和对方身份均需二次确认。",
-      verification: { level: "official", label: "官方入口", note: "10 月 25 日校园集市公开入口、分类和失物招领可访问；未核验个人交易。" },
+      caveat: "10 月 28 日入口可访问；每条交易的物品状态、价格和对方身份均需二次确认。",
+      verification: { level: "official", label: "官方入口", note: "10 月 28 日校园集市公开入口、分类和失物招领可访问；未核验个人交易。" },
       sources: [
         { channel: "校园集市", name: "中国农业大学校园集市", url: "https://ershou.cau.edu.cn/" }
       ]
@@ -430,12 +420,12 @@ window.CAU_DATA = {
   ],
   channels: [
     { name: "校级与院系官网", state: "verified", label: "已核验", detail: "作为事实基线，覆盖教学、研究生、学生工作、团学、院系、科研、活动与新闻原文。", url: "https://www.cau.edu.cn/" },
-    { name: "微信公众号 / 视频号", state: "partial", label: "公开覆盖有限", detail: "本轮微信公开镜像仍显示 2025 年旧内容，研招微信正文未稳定打开；微信、企业微信与个性化推送无法公开穷尽，关键事实回查责任单位官网。", url: "https://www.cau.edu.cn/" },
+    { name: "微信公众号 / 视频号", state: "partial", label: "公开覆盖有限", detail: "本轮公开搜索未得到可稳定核验的新微信正文；微信、企业微信与个性化推送无法公开穷尽，关键事实回查责任单位官网。", url: "https://www.cau.edu.cn/" },
     { name: "Google", state: "discovery", label: "结果页受限", detail: "本轮结果页无法直接访问；通用公开检索只用于发现线索，不代表 Google 结果完整覆盖。" },
     { name: "百度", state: "discovery", label: "结果页受限", detail: "本轮结果页无法直接访问；通用公开检索摘要不替代责任单位正文。" },
-    { name: "知乎", state: "discovery", label: "访问受限", detail: "本轮直接访问返回 403，未取得可稳定回溯并补强校方安排的正文。", url: "https://www.zhihu.com/" },
-    { name: "小红书", state: "partial", label: "需要登录", detail: "本轮首页重定向至登录页；未取得可稳定核验的校务正文。", url: "https://www.xiaohongshu.com/" },
-    { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号，但本轮官方时间流无法稳定抓取，关键事实仍回查责任单位原文。", url: "https://weibo.com/cau1905" },
-    { name: "校园集市", state: "verified", label: "入口可访问", detail: "10 月 25 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
+    { name: "知乎", state: "discovery", label: "访问受限", detail: "本轮公开搜索未取得可稳定回溯并补强校方安排的正文；完整内容可能受访问限制。", url: "https://www.zhihu.com/" },
+    { name: "小红书", state: "partial", label: "需要登录", detail: "本轮公开搜索未取得可稳定核验的校务正文；部分内容需要登录。", url: "https://www.xiaohongshu.com/" },
+    { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号，但本轮官方时间流受 robots 限制，关键事实仍回查责任单位原文。", url: "https://weibo.com/cau1905" },
+    { name: "校园集市", state: "verified", label: "入口可访问", detail: "10 月 28 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
   ]
 };
