@@ -1,32 +1,43 @@
 window.CAU_DATA = {
-  snapshot: "2026-11-13T20:08:00+08:00",
-  snapshotLabel: "2026 年 11 月 13 日 20:08",
+  snapshot: "2026-11-15T22:03:00+08:00",
+  snapshotLabel: "2026 年 11 月 15 日 22:03",
   items: [
     {
-      id: "n91", category: "通知", title: "农学院研代会代表推选：团队联络人 11 月 14 日中午前报送",
-      publishedAt: "2026-11-11", deadline: "2026-11-14T12:00:00+08:00",
-      dateLabel: "科研团队联络人报送：11 月 14 日 12:00 前；研代会：11 月 20 日 18:30",
-      audience: "符合原文条件的农学院全日制硕士、博士研究生及各科研团队联络人",
-      tags: ["农学院", "研究生代表大会", "代表推选"],
-      background: "农学院拟召开第十二次研究生代表大会，按科研团队名额民主推选代表。",
-      summary: "各团队依名额和代表条件组织推选；主席团候选人不得同时担任学生代表。",
-      action: "有意参与者联系所在科研团队；团队联络人按原文于 11 月 14 日 12:00 前报送代表统计表。",
-      caveat: "截止时刻是团队联络人的统一报送节点，并非任何学生都可直接向大会自荐；具体推选以团队安排为准。",
-      verification: { level: "official", label: "官方原文", note: "农学院 11 月 11 日原文确认对象、推选方式、团队报送和大会时间。" },
-      sources: [{ channel: "农学院", name: "第十二次研代会代表推选通知", url: "https://cab.cau.edu.cn/art/2026/11/11/art_48176_1145073.html" }]
+      id: "a23", category: "活动", title: "团员专题教育活动优秀案例由学院 11 月 18 日前报送",
+      publishedAt: "2026-11-09", deadline: "2026-11-18T18:00:00+08:00",
+      dateLabel: "二级团组织报送：11 月 18 日 18:00 前",
+      audience: "校内基层团支部及负责推荐的二级团组织",
+      tags: ["校团委", "主题团日", "优秀案例"],
+      background: "校团委组织学习贯彻党的二十届五中全会精神团员专题教育活动。",
+      summary: "各二级团组织至少推荐本科生、研究生团支部优秀活动各一个，并提交推荐表、汇总表、照片及学院微信平台报道链接。",
+      action: "团支部先联系所在二级团组织核对院内遴选时间；由二级团组织于 11 月 18 日 18:00 前统一报送。",
+      caveat: "11 月 18 日是二级团组织对校团委的节点，个人和团支部的院内时间可能更早；不将其视为直接个人报名。",
+      verification: { level: "official", label: "官方原文", note: "校团委 11 月 9 日原文确认对象、活动形式、材料与统一报送时刻。" },
+      sources: [{ channel: "校团委", name: "团员专题教育活动通知", url: "https://youth.cau.edu.cn/art/2026/11/9/art_45078_1144828.html" }]
     },
     {
-      id: "n92", category: "通知", title: "农学院研究生会主席团候选人报名至 11 月 14 日 17:00",
-      publishedAt: "2026-11-11", deadline: "2026-11-14T17:00:00+08:00",
-      dateLabel: "报名表电子版与导师签名纸质版：11 月 14 日 17:00 前",
-      audience: "参选及任职期间为农学院正式注册的硕士、博士研究生",
-      tags: ["农学院", "研究生会", "主席团竞选"],
-      background: "农学院第十二次研究生代表大会拟于 11 月 20 日选举新一届研究生会主席团。",
-      summary: "候选人自主报名后经资格审查与综合评议；原文列出学习、纪律和学生工作等条件。",
-      action: "先核对原文资格与附件，按要求发送报名表电子版，并将导师签名纸质版交农学楼 401。",
-      caveat: "候选人考察安排另行通知；报名不等于成为正式候选人，也不能同时担任研代会学生代表。",
-      verification: { level: "index", label: "官方索引", note: "农学院 11 月 11 日原文的公开搜索索引列出对象、材料、提交方式和 14 日 17:00 时刻；网页直连本轮超时或返回 403。" },
-      sources: [{ channel: "农学院", name: "研究生会主席团候选人报名通知", url: "https://cab.cau.edu.cn/art/2026/11/11/art_48176_1145075.html" }]
+      id: "h34", category: "热点", title: "资环学院团队提出河流水质多污染物政策评估路径",
+      publishedAt: "2026-11-10", dateLabel: "校新闻网 11 月 10 日报道",
+      audience: "关注农业绿色发展、河流水质与环境政策的师生",
+      tags: ["资环学院", "Nature Food", "多污染物"],
+      background: "张福锁院士团队许稳教授课题组与合作单位研究食物生产政策对河流水质的影响。",
+      summary: "校方报道团队构建 MARINA-Multi（China-2.0）模型，比较多种政策路径下营养盐、抗生素、除草剂及塑料等污染物输入。",
+      action: "阅读校新闻网解读；引用预测数值时核对论文模型、政策情景和不确定性。",
+      caveat: "2050 年结果属于模型情景预测，不是已经实现的污染物削减；各类污染物变化方向并不相同。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 10 日全文确认团队、期刊、研究范围与情景性质。" },
+      sources: [{ channel: "学校新闻网", name: "河流水质多污染物研究报道", url: "https://news.cau.edu.cn/kxyj/fa2590c388154c62a80b04dcf6890c97.htm" }]
+    },
+    {
+      id: "h35", category: "热点", title: "学校第十五届青年教师教学基本功比赛完成决赛",
+      publishedAt: "2026-11-14", dateLabel: "决赛 11 月 12—13 日；校新闻网 11 月 14 日报道",
+      audience: "关注课程教学与青年教师发展的师生",
+      tags: ["青年教师", "教学基本功", "校级竞赛"],
+      background: "学校组织青年教师教学基本功比赛，学院先行预赛后选手进入校级决赛。",
+      summary: "校方报道 40 位教师参加决赛，理工科组与人文社科组共评出 6 名一等奖获得者。",
+      action: "阅读校新闻网报道了解赛事与教学展示；后续赛次以学校新通知为准。",
+      caveat: "本届比赛已结束，不能作为当前报名入口；不转载获奖者完整名单。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 14 日全文确认决赛日期、参赛人数与奖项。" },
+      sources: [{ channel: "学校新闻网", name: "第十五届青教赛报道", url: "https://news.cau.edu.cn/zhxwnew/a45dbae7d7cf48a896eda7d72ce1fdf9.htm" }]
     },
     {
       id: "a22", category: "活动", title: "学校消防宣传月持续至 11 月 30 日",
@@ -129,19 +140,6 @@ window.CAU_DATA = {
       sources: [{ channel: "学校新闻网", name: "赛博农人团队卫冕报道", url: "https://news.cau.edu.cn/zhxwnew/e8086542c6854ff1825812d813758b75.htm" }]
     },
     {
-      id: "n76", category: "通知", title: "水院 2027 届本科毕设进入开题阶段",
-      publishedAt: "2026-10-20", sortAt: "2026-11-15T00:00:00+08:00",
-      dateLabel: "选题节点已过；开题须于 11 月 15 日前完成",
-      audience: "水利与智能工程学院 2027 届本科生及相关指导教师",
-      tags: ["水院", "毕业设计", "选题开题"],
-      background: "水院根据本科生院要求启动 2027 届本科毕业论文（设计）选题与开题。",
-      summary: "各系组织选题并审核，原则上一人一题；开题须于 11 月 15 日前完成，校外指导另需申请备案。",
-      action: "已完成选题的学生与指导教师按学院安排推进开题；需校外指导者回查原文准备申请。",
-      caveat: "10 月 30 日前的选题节点已过，不能将本卡作为新选题入口；11 月 6 日是各系报送答辩安排节点。",
-      verification: { level: "official", label: "官方原文", note: "水院 10 月 20 日原文确认对象、选题和开题时限。" },
-      sources: [{ channel: "水利与智能工程学院", name: "2027 届本科毕设选题开题通知", url: "https://water.cau.edu.cn/art/2026/10/20/art_45241_1141418.html" }]
-    },
-    {
       id: "n72", category: "通知", title: "2027 年博士申请考核报名开放至 12 月 15 日",
       publishedAt: "2026-10-22", deadline: "2026-12-15T18:00:00+08:00",
       dateLabel: "网上报名：10 月 22 日 9:00—12 月 15 日 18:00",
@@ -203,19 +201,6 @@ window.CAU_DATA = {
       sources: [{ channel: "学校新闻网", name: "学校第五次党员代表大会报道", url: "https://news.cau.edu.cn/ttgznew/f104a750337f4952a90a0bc0109ca689.htm" }]
     },
     {
-      id: "n68", category: "通知", title: "生物学院 2027 届本科毕设开题答辩窗口至 11 月 13 日",
-      publishedAt: "2026-10-13", sortAt: "2026-11-14T00:00:00+08:00",
-      dateLabel: "选题及任务书节点已过；开题答辩：11 月 9—13 日",
-      audience: "生物学院 2027 届本科毕业生及指导教师",
-      tags: ["毕业设计", "生物学院", "选题开题"],
-      background: "生物学院启动 2027 届本科毕业论文（设计）选题与开题工作。",
-      summary: "选题和任务书提交节点已过；已选题学生按学院安排于 11 月 9—13 日参加开题答辩。",
-      action: "已选题学生与指导教师核对当日开题场次和要求；校外毕设按原文完成学院审批及安全协议。",
-      caveat: "不再作为新选题入口；开题答辩具体场次另行通知。",
-      verification: { level: "official", label: "官方原文", note: "生物学院原文确认对象、选题、任务书和开题窗口。" },
-      sources: [{ channel: "生物学院", name: "2027 届本科毕业设计（论文）工作通知", url: "https://cbs.cau.edu.cn/art/2026/10/13/art_8729_1140389.html" }]
-    },
-    {
       id: "n69", category: "通知", title: "食品学院启动 2027 年本科创新项目立项准备",
       publishedAt: "2026-10-12", sortAt: "2026-12-01T09:00:00+08:00",
       dateLabel: "系统申报时限待本科生院通知；12 月 1—4 日分批交材料，拟于 12 月 5 日答辩",
@@ -265,24 +250,6 @@ window.CAU_DATA = {
       sources: [{ channel: "学校新闻网", name: "棉花叶倾角动态遥感监测研究", url: "https://news.cau.edu.cn/kxyj/1bb68b30a3e6406e916df3518117356e.htm" }, { channel: "论文 DOI", name: "Remote Sensing of Environment 论文入口", url: "https://doi.org/10.1016/j.rse.2026.115674" }]
     },
     {
-      id: "c06",
-      category: "竞赛",
-      title: "华北五省计算机应用大赛待迎 11 月决赛",
-      publishedAt: "2026-09-10",
-      sortAt: "2026-11-14T00:00:00+08:00",
-      dateLabel: "报名和作品提交均已结束；已报队伍决赛：11 月 14 日",
-      audience: "已按期报送队伍信息的中国农业大学参赛团队",
-      tags: ["计算机应用", "作品提交", "已报名团队"],
-      background: "信电学院发布华北五省（市、自治区）大学生计算机应用大赛等赛事组织通知。",
-      summary: "队伍信息报送和 10 月 8—10 日作品提交窗口均已结束；已参赛队伍应留意 11 月 14 日决赛安排。",
-      action: "已参赛团队核对赛事系统的作品审核状态与后续决赛通知。",
-      caveat: "不是新组队、补报名或补交作品入口；决赛具体安排以赛方后续通知为准。",
-      verification: { level: "official", label: "官方原文", note: "信电学院原文可核验队伍规模、报送和作品节点。" },
-      sources: [
-        { channel: "信电学院", name: "华北五省高校计算机类竞赛通知", url: "https://ciee.cau.edu.cn/art/2026/9/10/art_50390_1136378.html" }
-      ]
-    },
-    {
       id: "c04",
       category: "竞赛",
       title: "2026—2027 学年学科竞赛认定名单可查",
@@ -304,15 +271,15 @@ window.CAU_DATA = {
       id: "s01",
       category: "校园",
       title: "校园集市公开入口与失物招领可访问",
-      publishedAt: "2026-11-13",
-      dateLabel: "11 月 13 日复核：入口、分类与失物招领可访问",
+      publishedAt: "2026-11-15",
+      dateLabel: "11 月 15 日复核：入口、分类与失物招领可访问",
       audience: "需要校内二手交易、闲置流转与失物招领的师生",
       tags: ["校园集市", "二手交易", "隐私保护"],
       background: "中国农大校园集市提供校内二手物品、失物招领等公开信息入口。",
       summary: "本轮可访问公开入口、商品分类与失物招领；即时商品与交易详情仍需自行核实。",
       action: "需要使用时进入官方入口自行查看，优先校内当面交接并现场核验物品，警惕预付、外链和私下转账风险。",
-      caveat: "11 月 13 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
-      verification: { level: "official", label: "官方入口", note: "11 月 13 日公开入口、分类与失物招领可访问；未核验个人交易。" },
+      caveat: "11 月 15 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
+      verification: { level: "official", label: "官方入口", note: "11 月 15 日公开入口、分类与失物招领可访问；未核验个人交易。" },
       sources: [
         { channel: "校园集市", name: "中国农业大学校园集市", url: "https://ershou.cau.edu.cn/" }
       ]
@@ -326,6 +293,6 @@ window.CAU_DATA = {
     { name: "知乎", state: "discovery", label: "访问受限", detail: "本轮公开搜索未取得可稳定回溯并补强校方安排的正文；完整内容可能受访问限制。", url: "https://www.zhihu.com/" },
     { name: "小红书", state: "partial", label: "需要登录", detail: "本轮公开搜索未取得可稳定核验的校务正文；部分内容需要登录。", url: "https://www.xiaohongshu.com/" },
     { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号，但本轮官方时间流受 robots 限制，关键事实仍回查责任单位原文。", url: "https://weibo.com/cau1905" },
-    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 13 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
+    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 15 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
   ]
 };
