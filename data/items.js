@@ -1,19 +1,32 @@
 window.CAU_DATA = {
-  snapshot: "2026-11-15T22:03:00+08:00",
-  snapshotLabel: "2026 年 11 月 15 日 22:03",
+  snapshot: "2026-11-18T20:01:00+08:00",
+  snapshotLabel: "2026 年 11 月 18 日 20:01",
   items: [
     {
-      id: "a23", category: "活动", title: "团员专题教育活动优秀案例由学院 11 月 18 日前报送",
-      publishedAt: "2026-11-09", deadline: "2026-11-18T18:00:00+08:00",
-      dateLabel: "二级团组织报送：11 月 18 日 18:00 前",
-      audience: "校内基层团支部及负责推荐的二级团组织",
-      tags: ["校团委", "主题团日", "优秀案例"],
-      background: "校团委组织学习贯彻党的二十届五中全会精神团员专题教育活动。",
-      summary: "各二级团组织至少推荐本科生、研究生团支部优秀活动各一个，并提交推荐表、汇总表、照片及学院微信平台报道链接。",
-      action: "团支部先联系所在二级团组织核对院内遴选时间；由二级团组织于 11 月 18 日 18:00 前统一报送。",
-      caveat: "11 月 18 日是二级团组织对校团委的节点，个人和团支部的院内时间可能更早；不将其视为直接个人报名。",
-      verification: { level: "official", label: "官方原文", note: "校团委 11 月 9 日原文确认对象、活动形式、材料与统一报送时刻。" },
-      sources: [{ channel: "校团委", name: "团员专题教育活动通知", url: "https://youth.cau.edu.cn/art/2026/11/9/art_45078_1144828.html" }]
+      id: "c11", category: "竞赛", title: "园艺学院职业规划大赛报名材料 11 月 22 日前上传",
+      publishedAt: "2026-11-02", sortAt: "2026-11-22T00:00:00+08:00",
+      dateLabel: "园艺学院报名阶段至 11 月 22 日；院赛拟于 11 月 23—27 日",
+      audience: "园艺学院符合成长赛道或就业赛道条件的本科生、研究生",
+      tags: ["园艺学院", "职业规划大赛", "院内选拔"],
+      background: "学校举办第四届全国大学生职业规划大赛校内选拔赛，园艺学院组织院内选拔。",
+      summary: "成长赛道面向本科非毕业年级；就业赛道本科组与研究生组对象不同，报名需在大赛平台上传相应材料并完成学院问卷。",
+      action: "按园艺学院原文核对赛道和材料，在全国大学生职业规划大赛平台报名，并同步填写学院问卷；院赛安排以学院通知群为准。",
+      caveat: "11 月 22 日原文未给具体小时，按当日零时保守排序；其他学院截止时刻不同，不能套用园艺学院日期。",
+      verification: { level: "official", label: "官方原文", note: "园艺学院 11 月 2 日完整原文确认赛道对象、报名方式和院赛窗口。" },
+      sources: [{ channel: "园艺学院", name: "第四届职业规划大赛院内选拔通知", url: "https://yyxy.cau.edu.cn/art/2026/11/2/art_3227_1144027.html" }]
+    },
+    {
+      id: "n93", category: "通知", title: "工学院人工智能加博士后岗位材料 11 月 25 日前提交",
+      publishedAt: "2026-11-05", sortAt: "2026-11-25T00:00:00+08:00",
+      dateLabel: "申请人与岗位联系人联系并提交材料：11 月 25 日前",
+      audience: "符合工学院兴农青年学者岗博士后（人工智能+）条件的 2026 届或 2027 届博士毕业生",
+      tags: ["工学院", "博士后", "人工智能"],
+      background: "工学院公布兴农青年学者岗博士后（人工智能+）定向选拔安排。",
+      summary: "原文列出人工智能相关专业与学历条件，岗位涉及保护性耕作装备智慧管控和农业机器人具身智能。",
+      action: "先核对学历、学科、年龄和岗位要求，联系对应岗位联系人，并按原文抄送学院及学校博士后管理部门。",
+      caveat: "11 月 25 日未给具体小时，按当日零时保守排序；岗位资格较细，本站不代替学院资审。",
+      verification: { level: "official", label: "官方原文", note: "工学院 11 月 5 日原文确认对象、岗位、材料和申请人提交节点。" },
+      sources: [{ channel: "工学院", name: "兴农青年学者岗博士后招收安排", url: "https://coe.cau.edu.cn/art/2026/11/5/art_28580_1144509.html" }]
     },
     {
       id: "h34", category: "热点", title: "资环学院团队提出河流水质多污染物政策评估路径",
@@ -214,42 +227,6 @@ window.CAU_DATA = {
       sources: [{ channel: "食品科学与营养工程学院", name: "2027 年本科创新项目立项通知", url: "https://spxy.cau.edu.cn/art/2026/10/12/art_51298_1140144.html" }]
     },
     {
-      id: "h25", category: "热点", title: "农学院团队解析玉米苞叶驯化的遗传机制",
-      publishedAt: "2026-10-17", dateLabel: "PNAS 10 月 16 日发表；农学院 10 月 17 日报道",
-      audience: "关注作物遗传、玉米育种与农业科研的师生",
-      tags: ["玉米", "苞叶驯化", "PNAS"],
-      background: "农学院林中伟团队研究野生大刍草与现代玉米苞叶叶片长度差异。",
-      summary: "论文识别 HELD1/tru1 位点中的转座子插入及调控网络，并报告野生祖先等位基因在所试玉米材料的田间试验中改善果穗产量表现。",
-      action: "先读学院中文解读，再到 PNAS 原文核对实验材料、机制和田间条件。",
-      caveat: "研究结果不等于已完成品种审定，也不能直接外推到所有玉米材料和生产环境；PNAS 页面在部分访问环境可能返回 403。",
-      verification: { level: "double", label: "双源复核", note: "农学院报道与 PNAS 10 月 16 日论文共同支持机制、试验结论及两类日期。" },
-      sources: [{ channel: "农学院", name: "玉米苞叶驯化机制研究进展", url: "https://cab.cau.edu.cn/art/2026/10/17/art_48172_1141026.html" }, { channel: "PNAS", name: "HELD1 与玉米苞叶论文原文", url: "https://www.pnas.org/doi/10.1073/pnas.2602491123" }]
-    },
-    {
-      id: "h26", category: "热点", title: "综述提出以铁载体理解根际健康的新框架",
-      publishedAt: "2026-10-18", dateLabel: "综述 10 月 13 日在线；校方 10 月 18 日报道",
-      audience: "关注土壤微生物、植物营养与根际生态的师生",
-      tags: ["铁载体", "根际健康", "综述"],
-      background: "中国农大与南京农大团队在 Trends in Microbiology 发表铁载体与根际健康综述。",
-      summary: "文章把铁载体的化学结构、受体匹配与微生物资源竞争、植物铁营养和部分土壤动物互作联系起来，提出从菌群组成走向功能性状与互作预测的研究思路。",
-      action: "阅读校方中文解读，再通过 PubMed 记录核对论文摘要、作者与发表日期。",
-      caveat: "这是综述性框架，不意味着已有可普遍推广的田间菌剂、病害防控或增产效果。",
-      verification: { level: "double", label: "双源复核", note: "校新闻网与 PubMed 论文记录确认综述主题、作者和 10 月 13 日在线日期。" },
-      sources: [{ channel: "学校新闻网", name: "铁载体连接根际健康新框架", url: "https://news.cau.edu.cn/kxyj/05f07cf0e3eb46f0a744b816735028bf.htm" }, { channel: "PubMed", name: "Trends in Microbiology 论文记录", url: "https://pubmed.ncbi.nlm.nih.gov/42869754/" }]
-    },
-    {
-      id: "h27", category: "热点", title: "团队用无人机监测棉花叶倾角的日内变化",
-      publishedAt: "2026-10-16", dateLabel: "校新闻网 10 月 16 日报道；期刊卷期日期另列",
-      audience: "关注作物表型、遥感和水盐胁迫研究的师生",
-      tags: ["棉花", "无人机遥感", "水盐胁迫"],
-      background: "土地学院团队研究新疆阿拉尔棉田不同水盐处理条件下的棉花叶倾角变化。",
-      summary: "团队提出融合深度学习与无人机摄影测量的 CAPLA 框架，在 27 个处理小区中多时段观察棉花冠层结构，并报告灌溉、盐分和观测时间对叶倾角变化的影响。",
-      action: "从学校新闻网阅读实验设计；引用精度、显著性与适用范围时再核对正式论文。",
-      caveat: "这是特定棉田与观测条件下的表型监测研究，不等同于已验证的普遍灌溉建议；期刊页面本轮直连受限。",
-      verification: { level: "official", label: "官方原文", note: "学校新闻网完整正文确认研究范围与主要方向；期刊页本轮直连 403。" },
-      sources: [{ channel: "学校新闻网", name: "棉花叶倾角动态遥感监测研究", url: "https://news.cau.edu.cn/kxyj/1bb68b30a3e6406e916df3518117356e.htm" }, { channel: "论文 DOI", name: "Remote Sensing of Environment 论文入口", url: "https://doi.org/10.1016/j.rse.2026.115674" }]
-    },
-    {
       id: "c04",
       category: "竞赛",
       title: "2026—2027 学年学科竞赛认定名单可查",
@@ -271,15 +248,15 @@ window.CAU_DATA = {
       id: "s01",
       category: "校园",
       title: "校园集市公开入口与失物招领可访问",
-      publishedAt: "2026-11-15",
-      dateLabel: "11 月 15 日复核：入口、分类与失物招领可访问",
+      publishedAt: "2026-11-18",
+      dateLabel: "11 月 18 日复核：入口、分类与失物招领可访问",
       audience: "需要校内二手交易、闲置流转与失物招领的师生",
       tags: ["校园集市", "二手交易", "隐私保护"],
       background: "中国农大校园集市提供校内二手物品、失物招领等公开信息入口。",
       summary: "本轮可访问公开入口、商品分类与失物招领；即时商品与交易详情仍需自行核实。",
       action: "需要使用时进入官方入口自行查看，优先校内当面交接并现场核验物品，警惕预付、外链和私下转账风险。",
-      caveat: "11 月 15 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
-      verification: { level: "official", label: "官方入口", note: "11 月 15 日公开入口、分类与失物招领可访问；未核验个人交易。" },
+      caveat: "11 月 18 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
+      verification: { level: "official", label: "官方入口", note: "11 月 18 日公开入口、分类与失物招领可访问；未核验个人交易。" },
       sources: [
         { channel: "校园集市", name: "中国农业大学校园集市", url: "https://ershou.cau.edu.cn/" }
       ]
@@ -293,6 +270,6 @@ window.CAU_DATA = {
     { name: "知乎", state: "discovery", label: "访问受限", detail: "本轮公开搜索未取得可稳定回溯并补强校方安排的正文；完整内容可能受访问限制。", url: "https://www.zhihu.com/" },
     { name: "小红书", state: "partial", label: "需要登录", detail: "本轮公开搜索未取得可稳定核验的校务正文；部分内容需要登录。", url: "https://www.xiaohongshu.com/" },
     { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号，但本轮官方时间流受 robots 限制，关键事实仍回查责任单位原文。", url: "https://weibo.com/cau1905" },
-    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 15 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
+    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 18 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
   ]
 };
