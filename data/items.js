@@ -1,7 +1,31 @@
 window.CAU_DATA = {
-  snapshot: "2026-11-18T20:01:00+08:00",
-  snapshotLabel: "2026 年 11 月 18 日 20:01",
+  snapshot: "2026-11-20T20:00:00+08:00",
+  snapshotLabel: "2026 年 11 月 20 日 20:00",
   items: [
+    {
+      id: "s03", category: "校园", title: "校友咨询智能体“农晓友”上线试运行",
+      publishedAt: "2026-11-17", dateLabel: "校新闻网 11 月 17 日报道；试运行中",
+      audience: "中国农业大学校友",
+      tags: ["校友服务", "农晓友", "试运行"],
+      background: "校友工作办公室推出校友服务咨询智能体，集中处理常见咨询。",
+      summary: "校方介绍智能问答、热点速查、资料查阅和意见反馈四项功能，并提供独立网址、校友会公众号菜单和校友网浮窗入口。",
+      action: "校友可按校新闻网列出的入口尝试使用；涉及证件或资格的答复仍向责任部门复核。",
+      caveat: "服务处于试运行阶段；本轮独立网址未能通过公开检索工具直连，不能承诺所有入口和功能即时可用。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 17 日原文确认负责单位、服务对象、入口及四项功能；独立网址直连受限。" },
+      sources: [{ channel: "学校新闻网", name: "农晓友试运行报道", url: "https://news.cau.edu.cn/zhxwnew/7ff33f785d7d450c932b74942baf02b4.htm" }]
+    },
+    {
+      id: "h36", category: "热点", title: "资环学院盐碱地治理成果入选农业重大引领性技术",
+      publishedAt: "2026-11-19", dateLabel: "校新闻网 11 月 19 日报道",
+      audience: "关注盐碱地治理、土壤改良和农业技术应用的师生",
+      tags: ["资环学院", "盐碱地", "农业技术"],
+      background: "农业农村部公布 2026 年农业重大引领性技术名单。",
+      summary: "校方报道，资环学院胡树文团队参与研发的盐碱地土壤团粒重塑与精准滴灌节水集成技术入选。",
+      action: "阅读校新闻网报道了解技术构成和示范范围；实际应用需评估当地土壤与水资源条件。",
+      caveat: "入选名单与报道中的示范效果不等于在任意盐碱地可获得相同增产或节水效果。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 19 日全文确认团队、技术名称与入选事实。" },
+      sources: [{ channel: "学校新闻网", name: "盐碱地治理技术入选报道", url: "https://news.cau.edu.cn/zhxwnew/ef50c841b6d8453c9dd02b02fe03c0c6.htm" }]
+    },
     {
       id: "c11", category: "竞赛", title: "园艺学院职业规划大赛报名材料 11 月 22 日前上传",
       publishedAt: "2026-11-02", sortAt: "2026-11-22T00:00:00+08:00",
@@ -248,15 +272,15 @@ window.CAU_DATA = {
       id: "s01",
       category: "校园",
       title: "校园集市公开入口与失物招领可访问",
-      publishedAt: "2026-11-18",
-      dateLabel: "11 月 18 日复核：入口、分类与失物招领可访问",
+      publishedAt: "2026-11-20",
+      dateLabel: "11 月 20 日复核：入口、分类与失物招领可访问",
       audience: "需要校内二手交易、闲置流转与失物招领的师生",
       tags: ["校园集市", "二手交易", "隐私保护"],
       background: "中国农大校园集市提供校内二手物品、失物招领等公开信息入口。",
       summary: "本轮可访问公开入口、商品分类与失物招领；即时商品与交易详情仍需自行核实。",
       action: "需要使用时进入官方入口自行查看，优先校内当面交接并现场核验物品，警惕预付、外链和私下转账风险。",
-      caveat: "11 月 18 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
-      verification: { level: "official", label: "官方入口", note: "11 月 18 日公开入口、分类与失物招领可访问；未核验个人交易。" },
+      caveat: "11 月 20 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
+      verification: { level: "official", label: "官方入口", note: "11 月 20 日公开入口、分类与失物招领可访问；未核验个人交易。" },
       sources: [
         { channel: "校园集市", name: "中国农业大学校园集市", url: "https://ershou.cau.edu.cn/" }
       ]
@@ -270,6 +294,6 @@ window.CAU_DATA = {
     { name: "知乎", state: "discovery", label: "访问受限", detail: "本轮公开搜索未取得可稳定回溯并补强校方安排的正文；完整内容可能受访问限制。", url: "https://www.zhihu.com/" },
     { name: "小红书", state: "partial", label: "需要登录", detail: "本轮公开搜索未取得可稳定核验的校务正文；部分内容需要登录。", url: "https://www.xiaohongshu.com/" },
     { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号，但本轮官方时间流受 robots 限制，关键事实仍回查责任单位原文。", url: "https://weibo.com/cau1905" },
-    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 18 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
+    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 20 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
   ]
 };
