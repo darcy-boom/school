@@ -1,7 +1,44 @@
 window.CAU_DATA = {
-  snapshot: "2026-11-20T20:00:00+08:00",
-  snapshotLabel: "2026 年 11 月 20 日 20:00",
+  snapshot: "2026-11-22T20:05:00+08:00",
+  snapshotLabel: "2026 年 11 月 22 日 20:05",
   items: [
+    {
+      id: "c12", category: "竞赛", title: "动医职业规划大赛入围选手 11 月 22 日 22:00 前交路演 PPT",
+      publishedAt: "2026-11-18", deadline: "2026-11-22T22:00:00+08:00",
+      dateLabel: "路演 PPT：11 月 22 日 22:00 前；院赛决赛：11 月 24 日 13:00",
+      audience: "动物医学院第四届全国大学生职业规划大赛已入围决赛的选手",
+      tags: ["动物医学院", "职业规划大赛", "决赛路演"],
+      background: "动物医学院完成自主申请和专家函评后，公布院级选拔赛决赛路演安排。",
+      summary: "已入围选手须按原文格式发送路演 PPT 终稿；决赛定于 11 月 24 日 13:00 在动医动科大楼 401 会议室举行。",
+      action: "入围者于 22:00 前按学院原文核对命名格式和收件邮箱，提交 PPT 终稿；留意抽签顺序通知。",
+      caveat: "仅面向已入围选手，不是新的报名入口；本站不转载候选人名单或邮箱，请以学院原文核对。",
+      verification: { level: "official", label: "官方原文", note: "动物医学院 11 月 18 日原文确认对象、交件时刻、地点及决赛流程。" },
+      sources: [{ channel: "动物医学院", name: "第四届职业规划大赛决赛路演通知", url: "https://cvm.cau.edu.cn/art/2026/11/18/art_41942_1146175.html" }]
+    },
+    {
+      id: "s04", category: "校园", title: "“中国农业大学”微信小程序上线聚合校园服务",
+      publishedAt: "2026-11-04", dateLabel: "校新闻网 11 月 4 日报道；服务持续开放",
+      audience: "需要使用校内移动服务的中国农业大学师生",
+      tags: ["微信小程序", "校园服务", "统一身份认证"],
+      background: "学校信息化办公室上线统一的微信小程序服务入口。",
+      summary: "师生可在微信搜索“中国农业大学”小程序，登录后访问已接入的服务大厅、校园集市、活动管理等功能。",
+      action: "在微信中搜索小程序名称，使用本人学校统一身份认证账号登录；具体服务以本人权限与系统页面为准。",
+      caveat: "本轮核验学校报道，未登录测试各项应用；部分功能仅对校内身份开放。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 4 日全文确认负责单位、访问方式与已接入服务。" },
+      sources: [{ channel: "学校新闻网", name: "校园微信小程序上线报道", url: "https://news.cau.edu.cn/zhxwnew/d1e75f7dc396417587815f5f582c00a4.htm" }]
+    },
+    {
+      id: "h37", category: "热点", title: "土地学院团队提出带状复合种植遥感监测模型",
+      publishedAt: "2026-11-20", dateLabel: "校新闻网 11 月 20 日报道",
+      audience: "关注作物遥感、玉米大豆带状复合种植的师生",
+      tags: ["土地学院", "农业遥感", "带状复合种植"],
+      background: "高矮作物条带交替种植造成复杂遮阴与散射，增加冠层遥感监测难度。",
+      summary: "曾也鲁教授团队构建 RTAS 辐射传输模型，纳入作物高度、条带宽度和种植方向等因素，模拟多角度反射率。",
+      action: "阅读校新闻网研究解读；引用模型性能时核对论文和验证条件。",
+      caveat: "报道中的准确度和速度来自特定无人机观测及模型对照，不代表所有作物和田间条件。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 20 日全文确认研究团队、模型、期刊与验证条件。" },
+      sources: [{ channel: "学校新闻网", name: "带状复合种植遥感研究报道", url: "https://news.cau.edu.cn/kxyj/70196ce8d4b7407abcd372d65c37f451.htm" }]
+    },
     {
       id: "s03", category: "校园", title: "校友咨询智能体“农晓友”上线试运行",
       publishedAt: "2026-11-17", dateLabel: "校新闻网 11 月 17 日报道；试运行中",
@@ -27,15 +64,15 @@ window.CAU_DATA = {
       sources: [{ channel: "学校新闻网", name: "盐碱地治理技术入选报道", url: "https://news.cau.edu.cn/zhxwnew/ef50c841b6d8453c9dd02b02fe03c0c6.htm" }]
     },
     {
-      id: "c11", category: "竞赛", title: "园艺学院职业规划大赛报名材料 11 月 22 日前上传",
-      publishedAt: "2026-11-02", sortAt: "2026-11-22T00:00:00+08:00",
-      dateLabel: "园艺学院报名阶段至 11 月 22 日；院赛拟于 11 月 23—27 日",
-      audience: "园艺学院符合成长赛道或就业赛道条件的本科生、研究生",
+      id: "c11", category: "竞赛", title: "园艺学院职业规划大赛进入院赛阶段",
+      publishedAt: "2026-11-02", sortAt: "2026-11-23T00:00:00+08:00",
+      dateLabel: "报名阶段至 11 月 22 日；院赛拟于 11 月 23—27 日",
+      audience: "园艺学院已参加院内选拔的本科生、研究生",
       tags: ["园艺学院", "职业规划大赛", "院内选拔"],
       background: "学校举办第四届全国大学生职业规划大赛校内选拔赛，园艺学院组织院内选拔。",
-      summary: "成长赛道面向本科非毕业年级；就业赛道本科组与研究生组对象不同，报名需在大赛平台上传相应材料并完成学院问卷。",
-      action: "按园艺学院原文核对赛道和材料，在全国大学生职业规划大赛平台报名，并同步填写学院问卷；院赛安排以学院通知群为准。",
-      caveat: "11 月 22 日原文未给具体小时，按当日零时保守排序；其他学院截止时刻不同，不能套用园艺学院日期。",
+      summary: "学院原文安排报名至 11 月 22 日，院赛拟于 11 月 23—27 日开展；具体安排以学院通知群为准。",
+      action: "已报名者留意学院通知群与赛程安排，按通知准备院赛材料。",
+      caveat: "报名截止日未给具体小时，本站在 11 月 22 日 20:05 按保守口径不再展示报名动作；院赛时间仍为拟定。",
       verification: { level: "official", label: "官方原文", note: "园艺学院 11 月 2 日完整原文确认赛道对象、报名方式和院赛窗口。" },
       sources: [{ channel: "园艺学院", name: "第四届职业规划大赛院内选拔通知", url: "https://yyxy.cau.edu.cn/art/2026/11/2/art_3227_1144027.html" }]
     },
@@ -272,15 +309,15 @@ window.CAU_DATA = {
       id: "s01",
       category: "校园",
       title: "校园集市公开入口与失物招领可访问",
-      publishedAt: "2026-11-20",
-      dateLabel: "11 月 20 日复核：入口、分类与失物招领可访问",
+      publishedAt: "2026-11-22",
+      dateLabel: "11 月 22 日复核：入口、分类与失物招领可访问",
       audience: "需要校内二手交易、闲置流转与失物招领的师生",
       tags: ["校园集市", "二手交易", "隐私保护"],
       background: "中国农大校园集市提供校内二手物品、失物招领等公开信息入口。",
       summary: "本轮可访问公开入口、商品分类与失物招领；即时商品与交易详情仍需自行核实。",
       action: "需要使用时进入官方入口自行查看，优先校内当面交接并现场核验物品，警惕预付、外链和私下转账风险。",
-      caveat: "11 月 20 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
-      verification: { level: "official", label: "官方入口", note: "11 月 20 日公开入口、分类与失物招领可访问；未核验个人交易。" },
+      caveat: "11 月 22 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
+      verification: { level: "official", label: "官方入口", note: "11 月 22 日公开入口、分类与失物招领可访问；未核验个人交易。" },
       sources: [
         { channel: "校园集市", name: "中国农业大学校园集市", url: "https://ershou.cau.edu.cn/" }
       ]
@@ -294,6 +331,6 @@ window.CAU_DATA = {
     { name: "知乎", state: "discovery", label: "访问受限", detail: "本轮公开搜索未取得可稳定回溯并补强校方安排的正文；完整内容可能受访问限制。", url: "https://www.zhihu.com/" },
     { name: "小红书", state: "partial", label: "需要登录", detail: "本轮公开搜索未取得可稳定核验的校务正文；部分内容需要登录。", url: "https://www.xiaohongshu.com/" },
     { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号，但本轮官方时间流受 robots 限制，关键事实仍回查责任单位原文。", url: "https://weibo.com/cau1905" },
-    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 20 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
+    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 22 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
   ]
 };
