@@ -1,7 +1,31 @@
 window.CAU_DATA = {
-  snapshot: "2026-11-25T20:03:00+08:00",
-  snapshotLabel: "2026 年 11 月 25 日 20:03",
+  snapshot: "2026-11-27T19:59:00+08:00",
+  snapshotLabel: "2026 年 11 月 27 日 19:59",
   items: [
+    {
+      id: "s05", category: "校园", title: "校级 MaaS 平台面向师生开放试运行",
+      publishedAt: "2026-11-24", dateLabel: "校新闻网 11 月 24 日报道；试运行中",
+      audience: "中国农业大学师生",
+      tags: ["MaaS", "校园服务", "人工智能"],
+      background: "学校信息化团队建设统一的大模型服务平台。",
+      summary: "校方报道平台面向全校师生试运行，支持使用统一身份认证登录，并提供网页对话及面向开发者的 API 能力。",
+      action: "按校新闻网报道及信息化办公室说明访问，使用本人校内账号登录，核对当前可用模型和服务规则。",
+      caveat: "本轮未登录测试平台；模型清单、体验额度和权限可能变化，不把报道中的数量视作实时状态。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 24 日全文确认负责单位、服务对象、试运行及登录方式。" },
+      sources: [{ channel: "学校新闻网", name: "校级 MaaS 平台试运行报道", url: "https://news.cau.edu.cn/zhxwnew/68879cb1fbc945e9b5387cd398b36732.htm" }]
+    },
+    {
+      id: "h39", category: "热点", title: "动医学院团队研究纳米塑料暴露与小鼠神经行为变化",
+      publishedAt: "2026-11-25", dateLabel: "论文 11 月 16 日在线发表；校新闻网 11 月 25 日报道",
+      audience: "关注兽医公共卫生、环境毒理与科研方法的师生",
+      tags: ["动物医学院", "纳米塑料", "环境毒理"],
+      background: "动物医学院刘天龙团队研究聚苯乙烯纳米塑料暴露的神经毒性机制。",
+      summary: "团队在小鼠长期暴露模型中观察海马神经元变化与焦虑样行为，并分析 MEF2C 等潜在分子指标。",
+      action: "阅读校新闻网解读和论文，引用研究结论时区分动物实验与人群证据。",
+      caveat: "动物模型结果不能直接推断人群健康风险，也不能作为医疗建议。",
+      verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 25 日全文确认团队、论文在线时间、模型对象与发现范围。" },
+      sources: [{ channel: "学校新闻网", name: "纳米塑料神经毒性研究报道", url: "https://news.cau.edu.cn/kxyj/ecb2284f9b664855966dadbf27b828d0.htm" }]
+    },
     {
       id: "c13", category: "竞赛", title: "动医教师教学创新大赛院内推荐材料 12 月 10 日 17:00 前提交",
       publishedAt: "2026-11-24", deadline: "2026-12-10T17:00:00+08:00",
@@ -74,19 +98,6 @@ window.CAU_DATA = {
       caveat: "入选名单与报道中的示范效果不等于在任意盐碱地可获得相同增产或节水效果。",
       verification: { level: "official", label: "官方原文", note: "校新闻网 11 月 19 日全文确认团队、技术名称与入选事实。" },
       sources: [{ channel: "学校新闻网", name: "盐碱地治理技术入选报道", url: "https://news.cau.edu.cn/zhxwnew/ef50c841b6d8453c9dd02b02fe03c0c6.htm" }]
-    },
-    {
-      id: "c11", category: "竞赛", title: "园艺学院职业规划大赛进入院赛阶段",
-      publishedAt: "2026-11-02", sortAt: "2026-11-23T00:00:00+08:00",
-      dateLabel: "报名阶段至 11 月 22 日；院赛拟于 11 月 23—27 日",
-      audience: "园艺学院已参加院内选拔的本科生、研究生",
-      tags: ["园艺学院", "职业规划大赛", "院内选拔"],
-      background: "学校举办第四届全国大学生职业规划大赛校内选拔赛，园艺学院组织院内选拔。",
-      summary: "学院原文安排报名至 11 月 22 日，院赛拟于 11 月 23—27 日开展；具体安排以学院通知群为准。",
-      action: "已报名者留意学院通知群与赛程安排，按通知准备院赛材料。",
-      caveat: "报名截止日未给具体小时，本站在 11 月 22 日 20:05 按保守口径不再展示报名动作；院赛时间仍为拟定。",
-      verification: { level: "official", label: "官方原文", note: "园艺学院 11 月 2 日完整原文确认赛道对象、报名方式和院赛窗口。" },
-      sources: [{ channel: "园艺学院", name: "第四届职业规划大赛院内选拔通知", url: "https://yyxy.cau.edu.cn/art/2026/11/2/art_3227_1144027.html" }]
     },
     {
       id: "h34", category: "热点", title: "资环学院团队提出河流水质多污染物政策评估路径",
@@ -308,15 +319,15 @@ window.CAU_DATA = {
       id: "s01",
       category: "校园",
       title: "校园集市公开入口与失物招领可访问",
-      publishedAt: "2026-11-25",
-      dateLabel: "11 月 25 日复核：入口、分类与失物招领可访问",
+      publishedAt: "2026-11-27",
+      dateLabel: "11 月 27 日复核：入口、分类与失物招领可访问",
       audience: "需要校内二手交易、闲置流转与失物招领的师生",
       tags: ["校园集市", "二手交易", "隐私保护"],
       background: "中国农大校园集市提供校内二手物品、失物招领等公开信息入口。",
       summary: "本轮可访问公开入口、商品分类与失物招领；即时商品与交易详情仍需自行核实。",
       action: "需要使用时进入官方入口自行查看，优先校内当面交接并现场核验物品，警惕预付、外链和私下转账风险。",
-      caveat: "11 月 25 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
-      verification: { level: "official", label: "官方入口", note: "11 月 25 日公开入口、分类与失物招领可访问；未核验个人交易。" },
+      caveat: "11 月 27 日仅确认公开入口可访问；单条交易、价格与对方身份须二次核验。",
+      verification: { level: "official", label: "官方入口", note: "11 月 27 日公开入口、分类与失物招领可访问；未核验个人交易。" },
       sources: [
         { channel: "校园集市", name: "中国农业大学校园集市", url: "https://ershou.cau.edu.cn/" }
       ]
@@ -330,6 +341,6 @@ window.CAU_DATA = {
     { name: "知乎", state: "discovery", label: "访问受限", detail: "本轮公开搜索未取得可稳定回溯并补强校方安排的正文；完整内容可能受访问限制。", url: "https://www.zhihu.com/" },
     { name: "小红书", state: "partial", label: "需要登录", detail: "本轮公开搜索未取得可稳定核验的校务正文；部分内容需要登录。", url: "https://www.xiaohongshu.com/" },
     { name: "微博", state: "partial", label: "抓取受限", detail: "可定位中国农业大学官方账号，但本轮官方时间流受 robots 限制，关键事实仍回查责任单位原文。", url: "https://weibo.com/cau1905" },
-    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 25 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
+    { name: "校园集市", state: "verified", label: "入口可访问", detail: "11 月 27 日公开入口、分类和失物招领可访问；不展示即时商品、个人联系方式、价格或交易状态。", url: "https://ershou.cau.edu.cn/" }
   ]
 };
